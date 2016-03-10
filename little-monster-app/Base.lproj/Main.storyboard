@@ -66,8 +66,8 @@
                                     <rect key="frame" x="209" y="-48" width="182" height="50"/>
                                 </variation>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="qB2-3z-yns">
-                                <rect key="frame" x="-85" y="170" width="686" height="387"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="qB2-3z-yns" customClass="MonsterImg" customModule="little_monster_app" customModuleProvider="target">
+                                <rect key="frame" x="-80" y="170" width="686" height="387"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="686" id="d8h-Bo-eb2"/>
                                     <constraint firstAttribute="height" constant="387" id="ebo-Ef-Ci3"/>
@@ -105,7 +105,7 @@
                             <constraint firstItem="d3A-1L-f7V" firstAttribute="top" secondItem="HQF-wO-J57" secondAttribute="bottom" constant="15" id="2aZ-gG-lck"/>
                             <constraint firstItem="yXR-pO-ZZ4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2eY-U0-z0m"/>
                             <constraint firstItem="d3A-1L-f7V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Qe-Dn-4Wg"/>
-                            <constraint firstItem="qB2-3z-yns" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-105" id="5hz-2j-V5M"/>
+                            <constraint firstItem="qB2-3z-yns" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-100" id="5hz-2j-V5M"/>
                             <constraint firstItem="d3A-1L-f7V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9En-hP-wn2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qB2-3z-yns" secondAttribute="bottom" constant="43" id="Ayu-Ih-4aQ"/>
                             <constraint firstItem="d3A-1L-f7V" firstAttribute="top" secondItem="HQF-wO-J57" secondAttribute="bottom" constant="15" id="FQu-or-VOI"/>
@@ -148,6 +148,9 @@
                         <outlet property="foodImg" destination="Gx6-Tj-FcR" id="PVJ-wj-NaC"/>
                         <outlet property="heartImg" destination="WzL-CK-sAO" id="D7r-j1-R8g"/>
                         <outlet property="monsterImg" destination="qB2-3z-yns" id="rwL-nQ-Ra9"/>
+                        <outlet property="penalty1Img" destination="Jdm-PC-Dgr" id="ltJ-tb-E1U"/>
+                        <outlet property="penalty2Img" destination="WKz-vt-iCV" id="tuj-i3-dw0"/>
+                        <outlet property="penalty3Img" destination="iQM-8D-2ib" id="5pe-mG-zvk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

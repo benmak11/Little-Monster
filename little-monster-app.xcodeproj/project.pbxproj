@@ -13,6 +13,7 @@
 		A7B527401C90F7B100C3B428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B5273F1C90F7B100C3B428 /* Assets.xcassets */; };
 		A7B527431C90F7B100C3B428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B527411C90F7B100C3B428 /* LaunchScreen.storyboard */; };
 		A7B5274B1C9118B100C3B428 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B5274A1C9118B100C3B428 /* DragImg.swift */; };
+		A7B5274D1C91262C00C3B428 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B5274C1C91262C00C3B428 /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A7B527421C90F7B100C3B428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B527441C90F7B100C3B428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B5274A1C9118B100C3B428 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		A7B5274C1C91262C00C3B428 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A7B5273F1C90F7B100C3B428 /* Assets.xcassets */,
 				A7B527411C90F7B100C3B428 /* LaunchScreen.storyboard */,
 				A7B527441C90F7B100C3B428 /* Info.plist */,
+				A7B5274C1C91262C00C3B428 /* MonsterImg.swift */,
 			);
 			path = "little-monster-app";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B5274D1C91262C00C3B428 /* MonsterImg.swift in Sources */,
 				A7B5274B1C9118B100C3B428 /* DragImg.swift in Sources */,
 				A7B5273B1C90F7B100C3B428 /* ViewController.swift in Sources */,
 				A7B527391C90F7B100C3B428 /* AppDelegate.swift in Sources */,
